@@ -1,0 +1,6 @@
+@SignDashboard.Api_HostAddress = http://localhost:5206
+
+GET {{SignDashboard.Api_HostAddress}}/api/dashboard
+Accept: application/json
+
+###

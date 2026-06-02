@@ -1,0 +1,13 @@
+**/bin/
+**/obj/
+**/tmp-build/
+**/node_modules/
+**/.next/
+**/Uploads/*
+!**/Uploads/.gitkeep
+**/AgentDownloads/*
+!**/AgentDownloads/.gitkeep
+.env
+.env.local
+*.user
+*.log
