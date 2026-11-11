@@ -4,10 +4,10 @@ const config = {
   theme: {
     extend: {
       colors: {
-        ink: "#17212b",
-        steel: "#425466",
-        signal: "#f59e0b",
-        mint: "#2f9e8f"
+        ink: "#0F172A",
+        steel: "#334155",
+        signal: "#F97316",
+        mint: "#2563EB"
       }
     }
   },

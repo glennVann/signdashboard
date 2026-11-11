@@ -112,7 +112,7 @@ export default function ProofReviewPage({ params }) {
 
           {proof.notes ? <p className="mt-4 rounded-md bg-stone-50 p-3 text-sm text-steel">{proof.notes}</p> : null}
           {submittedDecision ? (
-            <div className="mt-4 rounded-md border border-emerald-300 bg-emerald-50 p-3 text-sm font-semibold text-emerald-800">
+            <div className="mt-4 rounded-md border border-mint/30 bg-mint/10 p-3 text-sm font-semibold text-mint">
               Response submitted: {submittedDecision}
             </div>
           ) : null}
@@ -128,10 +128,10 @@ export default function ProofReviewPage({ params }) {
           </label>
 
           <div className="mt-4 grid gap-3">
-            <button className="btn bg-emerald-700 hover:bg-emerald-800" disabled={submitting} onClick={() => submitDecision("Approved")}>
+            <button className="btn" disabled={submitting} onClick={() => submitDecision("Approved")}>
               <CheckCircle2 size={18} /> Approve Proof
             </button>
-            <button className="btn-secondary border-rose-300 text-rose-800 hover:bg-rose-50" disabled={submitting} onClick={() => submitDecision("Revision Needed")}>
+            <button className="btn-secondary border-signal/30 text-signal hover:bg-signal/10" disabled={submitting} onClick={() => submitDecision("Revision Needed")}>
               <XCircle size={18} /> Request Revision
             </button>
           </div>

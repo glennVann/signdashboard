@@ -6,6 +6,9 @@ public sealed class Quote
     public string QuoteNumber { get; set; } = string.Empty;
     public int CustomerId { get; set; }
     public Customer? Customer { get; set; }
+    public int? OpportunityId { get; set; }
+    public Opportunity? Opportunity { get; set; }
+    public string ProjectType { get; set; } = string.Empty;
     public string Status { get; set; } = "Draft";
     public string Scope { get; set; } = string.Empty;
     public decimal Subtotal { get; set; }

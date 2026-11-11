@@ -4,16 +4,16 @@
 
 :root {
   color-scheme: light;
-  background: #f6f4ef;
+  background: #f8fafc;
 }
 
 body {
   margin: 0;
   background:
-    linear-gradient(135deg, rgba(47, 158, 143, 0.08), transparent 36%),
-    linear-gradient(225deg, rgba(245, 158, 11, 0.12), transparent 34%),
-    #f6f4ef;
-  color: #17212b;
+    linear-gradient(135deg, rgba(37, 99, 235, 0.08), transparent 36%),
+    linear-gradient(225deg, rgba(249, 115, 22, 0.12), transparent 34%),
+    #f8fafc;
+  color: #0f172a;
 }
 
 button,
@@ -32,13 +32,13 @@ textarea {
 }
 
 .btn {
-  @apply inline-flex h-10 items-center justify-center gap-2 rounded-md bg-ink px-4 text-sm font-semibold text-white transition hover:bg-steel disabled:cursor-not-allowed disabled:opacity-50;
+  @apply inline-flex h-10 items-center justify-center gap-2 rounded-md bg-mint px-4 text-sm font-semibold text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-50;
 }
 
 .btn-secondary {
-  @apply inline-flex h-10 items-center justify-center gap-2 rounded-md border border-stone-300 bg-white px-4 text-sm font-semibold text-ink transition hover:bg-stone-50;
+  @apply inline-flex h-10 items-center justify-center gap-2 rounded-md border border-slate-300 bg-white px-4 text-sm font-semibold text-ink transition hover:border-mint/30 hover:bg-blue-50 hover:text-mint;
 }
 
 .panel {
-  @apply rounded-lg border border-stone-200 bg-white shadow-sm;
+  @apply rounded-lg border border-slate-200 bg-white shadow-sm;
 }
